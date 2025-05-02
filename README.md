@@ -1,6 +1,77 @@
 
 ## Crop Wild Relative on US Forest Service lands
 
+*Update 2025-05-02*
+
+Major updated based on February meeting. 
+
+
+
+1. Utilize the USFS datasets to organize information 
+  - layer 1 : Regional areas (9 unique areas)
+  - layer 2 : Admin layer (112 unique areas)
+  - level 3 : National Forests and Grasslands (260 unique areas)
+  - level 4 : Research Areas  (16 unique areas)
+  - level 5 : Wilderness Areas (451 unique areas)
+  - level 6 : Botanical Areas (46 unique areas)
+
+2. Summarize the total number of species predicted and observed at these areas 
+  - predicted : at least a single cell of a habitat suitability model in within the area boundary for a species 
+  - observed : at least a single point observation for a specific is found within the area boundary 
+  
+
+  
+## Maps 
+
+Three maps are generated to so the total predicted and observed species per area
+ 
+ - total taxon ( combined predicted and observed)
+ - total taxon observed
+ - total taxon predicted  
+
+### [Total taxon predicted and observed](https://geospatialcentroid.github.io/usfsCWR/combinedMap.html)
+
+This map looks at the unique taxon between the prediction and observed datasets and provides a full list. This will be the highest number of species of any map. 
+
+### [Total taxon observed](https://geospatialcentroid.github.io/usfsCWR/pointMap.html)
+
+This map highlights the number of unique taxon observed within each geography. Every observation indicates a reported ground observation of the species.
+
+
+### [Total taxon predicted](https://geospatialcentroid.github.io/usfsCWR/rasterMap.html)
+
+This map highlights the number of unique taxon predicted within each geography. Only a single cell of the potential distribution needs to be in area. 
+
+
+
+
+## Data summaries 
+
+Two files were create to summarize the presence of theses species in the specific management areas 
+
+The left move column is the taxon of interest. 
+The column to the right contain the names or unique identifiers of specific forest service areas. 
+
+[Observations](https://docs.google.com/spreadsheets/d/1zBxiKcVKg9rcC-qGf93kP-hOCJYTihS8j2Y6D9ut4y8/edit?usp=sharing)
+
+
+[Distributions](https://docs.google.com/spreadsheets/d/1XX9I4V3rD5AcotK4yHF9-K7VhA2mCZIXUzVBpm97Hk4/edit?usp=sharing) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+## older material 
+
+
 *Updated* : 2025-02-7
 
 Significant overhall to the workflow with the specific aims of 
