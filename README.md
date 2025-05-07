@@ -19,54 +19,56 @@ Major updated based on February meeting.
   - predicted : at least a single cell of a habitat suitability model in within the area boundary for a species 
   - observed : at least a single point observation for a specific is found within the area boundary 
   
+<div style="display: flex;">
+  <div style="flex: 1; padding-right: 10px;">
 
+  <h2>Maps</h2> 
   
-## Maps 
+  Three maps are generated to so the total predicted and observed species per area
+   
+   - total taxa ( combined predicted and observed)
+   - total taxa observed
+   - total taxa predicted  
+  
+  <h3>[Total taxa predicted and observed](https://geospatialcentroid.github.io/usfsCWR/combinedMap.html)</h3>
+  
+  This map looks at the unique taxa between the prediction and observed datasets and provides a full list. This will be the highest number of species of any map. 
+  
+  <h3>[Total taxa observed](https://geospatialcentroid.github.io/usfsCWR/pointMap.html)</h3>
+  
+  This map highlights the number of unique taxa observed within each geography. Every observation indicates a reported ground observation of the species.
+  
+  
+  <h3>[Total taxa predicted](https://geospatialcentroid.github.io/usfsCWR/rasterMap.html)</h3>
+  
+  This map highlights the number of unique taxa predicted within each geography. Only a single cell of the potential distribution needs to be in area. 
 
-Three maps are generated to so the total predicted and observed species per area
- 
- - total taxon ( combined predicted and observed)
- - total taxon observed
- - total taxon predicted  
+  </div>
+  <div style="flex: 1; padding-left: 10px;">
 
-### [Total taxon predicted and observed](https://geospatialcentroid.github.io/usfsCWR/combinedMap.html)
+  <h2>Data summaries </h2>
 
-This map looks at the unique taxon between the prediction and observed datasets and provides a full list. This will be the highest number of species of any map. 
+  Two files were create to summarize the presence of theses species in the specific management areas 
+  
+  The left move column is the taxon of interest. 
+  The column to the right contain the names or unique identifiers of specific forest service areas. 
+  
+  <h3>[Observed taxa](https://docs.google.com/spreadsheets/d/1zBxiKcVKg9rcC-qGf93kP-hOCJYTihS8j2Y6D9ut4y8/edit?usp=sharing)</h3>
+  
+  
+  <h3>[Predicted taxa](https://docs.google.com/spreadsheets/d/1XX9I4V3rD5AcotK4yHF9-K7VhA2mCZIXUzVBpm97Hk4/edit?usp=sharing) </h3>
+  
 
-### [Total taxon observed](https://geospatialcentroid.github.io/usfsCWR/pointMap.html)
-
-This map highlights the number of unique taxon observed within each geography. Every observation indicates a reported ground observation of the species.
-
-
-### [Total taxon predicted](https://geospatialcentroid.github.io/usfsCWR/rasterMap.html)
-
-This map highlights the number of unique taxon predicted within each geography. Only a single cell of the potential distribution needs to be in area. 
-
-
-
-
-## Data summaries 
-
-Two files were create to summarize the presence of theses species in the specific management areas 
-
-The left move column is the taxon of interest. 
-The column to the right contain the names or unique identifiers of specific forest service areas. 
-
-[Observations](https://docs.google.com/spreadsheets/d/1zBxiKcVKg9rcC-qGf93kP-hOCJYTihS8j2Y6D9ut4y8/edit?usp=sharing)
-
-
-[Distributions](https://docs.google.com/spreadsheets/d/1XX9I4V3rD5AcotK4yHF9-K7VhA2mCZIXUzVBpm97Hk4/edit?usp=sharing) 
-
-
-
-
-
-
+  </div>
+</div>
+  
+  
 
 
 
 
 
+<!---
 
 
 ## older material 
@@ -91,23 +93,23 @@ Significant overhall to the workflow with the specific aims of
 
 There are quite a few way to showcase these relationship currently were showing four. 
  
- - total taxon (predicted and observed)
- - total taxon observed
- - total taxon predicted 
- - density of observed taxon 
+ - total taxa (predicted and observed)
+ - total taxa observed
+ - total taxa predicted 
+ - density of observed taxa 
 
-### [Total taxon predicted and observed](https://geospatialcentroid.github.io/usfsCWR/uniqueTaxa.html)
+### [Total taxa predicted and observed](https://geospatialcentroid.github.io/usfsCWR/uniqueTaxa.html)
 
-This map looks at the unique taxon between the prediction and observed datas and provides a full list. This will be the highest number of species of any map. 
+This map looks at the unique taxa between the prediction and observed datas and provides a full list. This will be the highest number of species of any map. 
 All four layers are present and the an additional point layer datasets is added for botanical areas for ease of reference. 
 
-### [Total taxon observed](https://geospatialcentroid.github.io/usfsCWR/totalObservered.html)
+### [Total taxa observed](https://geospatialcentroid.github.io/usfsCWR/totalObservered.html)
 
-This map highlights the number of unique taxon observed within each geography. 
+This map highlights the number of unique taxa observed within each geography. 
 
-### [Total taxon predicted](https://geospatialcentroid.github.io/usfsCWR/totalPredicted.html)
+### [Total taxa predicted](https://geospatialcentroid.github.io/usfsCWR/totalPredicted.html)
 
-This map highlights the number of unique taxon predicted within each geography. 
+This map highlights the number of unique taxa predicted within each geography. 
 
 ### [Total observation per cell](https://geospatialcentroid.github.io/usfsCWR/totalObsPerCell.html)
 
@@ -153,4 +155,6 @@ PAD-US dataset was used as a spatial reference for all USFS lands. These were se
 - [spatial join between distribution models and USFS lands](https://drive.google.com/file/d/12In8I6C8KqNIf91W8LHnGws12pIiS28k/view?usp=sharing) (Wilderness and National Forest only)
 
 #### [Map of all predicted habitat in US Service Lands](https://geospatialcentroid.github.io/usfsCWR/fsrasterWildernessNF)
+
+---> 
 
