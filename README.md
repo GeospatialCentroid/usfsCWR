@@ -30,16 +30,16 @@ Major updated based on February meeting.
    - total taxa observed
    - total taxa predicted  
   
-  <h3>[Total taxa predicted and observed](https://geospatialcentroid.github.io/usfsCWR/combinedMap.html)</h3>
+  [Total taxa predicted and observed](https://geospatialcentroid.github.io/usfsCWR/combinedMap.html)
   
   This map looks at the unique taxa between the prediction and observed datasets and provides a full list. This will be the highest number of species of any map. 
   
-  <h3>[Total taxa observed](https://geospatialcentroid.github.io/usfsCWR/pointMap.html)</h3>
+  [Total taxa observed](https://geospatialcentroid.github.io/usfsCWR/pointMap.html)
   
   This map highlights the number of unique taxa observed within each geography. Every observation indicates a reported ground observation of the species.
   
   
-  <h3>[Total taxa predicted](https://geospatialcentroid.github.io/usfsCWR/rasterMap.html)</h3>
+  [Total taxa predicted](https://geospatialcentroid.github.io/usfsCWR/rasterMap.html)
   
   This map highlights the number of unique taxa predicted within each geography. Only a single cell of the potential distribution needs to be in area. 
 
@@ -53,10 +53,10 @@ Major updated based on February meeting.
   The left move column is the taxon of interest. 
   The column to the right contain the names or unique identifiers of specific forest service areas. 
   
-  <h3>[Observed taxa](https://docs.google.com/spreadsheets/d/1zBxiKcVKg9rcC-qGf93kP-hOCJYTihS8j2Y6D9ut4y8/edit?usp=sharing)</h3>
+  [Observed taxa](https://docs.google.com/spreadsheets/d/1zBxiKcVKg9rcC-qGf93kP-hOCJYTihS8j2Y6D9ut4y8/edit?usp=sharing)
   
   
-  <h3>[Predicted taxa](https://docs.google.com/spreadsheets/d/1XX9I4V3rD5AcotK4yHF9-K7VhA2mCZIXUzVBpm97Hk4/edit?usp=sharing) </h3>
+  [Predicted taxa](https://docs.google.com/spreadsheets/d/1XX9I4V3rD5AcotK4yHF9-K7VhA2mCZIXUzVBpm97Hk4/edit?usp=sharing) 
   
 
   </div>
