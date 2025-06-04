@@ -73,10 +73,11 @@ Major updated based on May meeting.
   The centroid of the largest polygon associate with each area was used to determine the higherachical relationship. 
   
   Assumptions about hierarchy 
+  <br>
   Regions : contain (admin, forest and grasslands, research natural areas, experimental forests, wilderness, botanical areas)
-  
+  <br>
   Admin : contian (forest and grasslands, research natural areas, experimental forests, wilderness, botanical areas)
-  
+  <br>
   forest and grasslands : contain (research natural areas, experimental forests, wilderness, botanical areas)
   
   <h3>
