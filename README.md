@@ -68,7 +68,32 @@ Major updated based on May meeting.
   <a href= "https://docs.google.com/spreadsheets/d/1AN2E_QwzMjGCo4pj0MWsGOmnDq7wGiq-7bkwibi-x5A/edit?usp=sharing" >Predicted taxa </a>
   </h3>  
 
+  <h2>Area relationship summaries </h2>
+  The following files shows the spatial relationship between the various levels of management. Regions, Admin, and National Forest and Grasslands have unique files. 
+  The centroid of the largest polygon associate with each area was used to determine the higherachical relationship. 
+  
+  Assumptions about hierarchy 
+  Regions : contain (admin, forest and grasslands, research natural areas, experimental forests, wilderness, botanical areas)
+  
+  Admin : contian (forest and grasslands, research natural areas, experimental forests, wilderness, botanical areas)
+  
+  forest and grasslands : contain (research natural areas, experimental forests, wilderness, botanical areas)
+  
+  <h3>
+  <a href= "https://docs.google.com/spreadsheets/d/1V9XgBspmeVLLI1C4rY8560JUT4wsk-7bGo2XigsN4TY/edit?usp=sharing" >Regions </a>
+  </h3>  
+  
+  
+  <h3>
+  <a href= "https://docs.google.com/spreadsheets/d/1wbf1ap1TqvEDlxUwl5ZGCBuJN4ZMqeUGaFr7RHGAN50/edit?usp=sharing" >Admin areas </a>
+  </h3>  
+  
+  <h3>
+  <a href= "https://docs.google.com/spreadsheets/d/101kRq3JLdwa1MMMGLdpA8YCGH7LKI1114kZbtMvrQJ0/edit?usp=sharing" >National Forest and Grasslands </a>
+  </h3>  
+    
   </div>
+  
 </div>
 
 
